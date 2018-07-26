@@ -53,9 +53,12 @@ xmlns:android="http://schemas.android.com/apk/res/android" in your config.xml fi
 ionic cordova Build android --device
 
 * Run your app using:
+
 ionic cordova run android --device
 
 * Debug/Inspect your app on the console going to: chrome://inspect/#devices
-* Check clobbers tag inside plugin.xml to know the plugin name and check Plugin ID and related conversation.js file to know what function is called along with the plugin usage. ex: cordova.videoconversation is the clobbers element and open is the function called in conersation.js., 
+* Check clobbers tag inside plugin.xml to know the plugin name(also check Plugin ID & activity tag of android to make sure plugin is loaded during your build) and related conversation.js file to know what function is called along with the plugin usage.
+
+ex: 'cordova.videoconversation' is the clobbers element and 'open' is the function called in conversation.js 
 
 Happy Coding! :)
