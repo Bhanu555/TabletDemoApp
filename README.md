@@ -4,18 +4,19 @@ Android mobile app for video visitation using Ionic1/Angularjs
 
 Steps to build an ionic1 angularjs app
 
-Start a new ionic project by specifying its type
+* Start a new ionic project by specifying its type
+
 ionic start NewIonic3App blank 
 
-Integrate cordova? - yes Cordova pro - no
+* Integrate cordova? - yes Cordova pro - no
 
-cd NewIOnic1App
+* cd NewIOnic1App
 
-Next add the plugin,command to install Plugin for ionic3
+* Next add the plugin,command to install Plugin for ionic3
 
-Use this plugin: https://github.com/PriceFallin/cordova-plugin-twilio-video( Fork or clone into this plugin and extract files)
+* Use this plugin: https://github.com/PriceFallin/cordova-plugin-twilio-video( Fork or clone into this plugin and extract files)
 
-ionic cordova plugin add [path/to/plugin]
+* ionic cordova plugin add [path/to/plugin]
 
 ex: ionic cordova plugin add C:/Desktop/cordova-plugin-twilio-video-master 
 
