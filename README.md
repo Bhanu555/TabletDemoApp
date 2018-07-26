@@ -25,7 +25,7 @@ NOTE: change all the appearance of corodva-plugin-twilio-video to corodva.plugin
 declare const cordova: any;
  
  and call the plugin using: 
- cordova.plugins.TwilioVideo.openRoom(RoomName="Anu", Token= "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzdiYzNiODZlYTFiZjU3MDQ4MzUyZjNmYTY4NjlmMzQ5LTE1MzI1NTM4OTYiLCJpc3MiOiJTSzdiYzNiODZlYTFiZjU3MDQ4MzUyZjNmYTY4NjlmMzQ5Iiwic3ViIjoiQUM2MjlkMTIzM2VhZDY0YjUzNDFkMjcyOGY1ZWIxNjBkYyIsImV4cCI6MTUzMjU1NzQ5NiwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiYmhhbnUiLCJ2aWRlbyI6eyJyb29tIjoiQW51In19fQ.PI8Qw-8VTcs5xk1b1MjL7EIsedTXDo4maCPltqMnc8o", RemoteParticipantName="bhanu");
+ cordova.plugins.TwilioVideo.openRoom(RoomName="Anu", Token= "1234****8910" , RemoteParticipantName="bhanu");
 
 Debugging through bugs:
 
