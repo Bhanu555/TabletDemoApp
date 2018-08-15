@@ -1,5 +1,6 @@
 # TabletDemoApp
 Updated one: Android mobile app for conversation app using Ionic3/Angular5 using a cordova plugin for android 
+OR
 Android mobile app for video visitation using Ionic1/Angularjs
 
 Steps to build an ionic1 angularjs app
